@@ -37,7 +37,7 @@ public class DefaultCacheQuickstart {
 
    public static void main(String args[]) throws Exception {
 	 //  Cache<Object, Object> cache = new DefaultCacheManager().getCache();
-     RemoteCacheManager cacheManager = new RemoteCacheManager("arsmint:11222");
+     RemoteCacheManager cacheManager = new RemoteCacheManager("172.17.0.109:11222");
      RemoteCache<Object, Object> cache = cacheManager.getCache();
       
       // Add a entry
